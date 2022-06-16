@@ -2,26 +2,46 @@
 
 exports[`The page of configuration should be render correctly 1`] = `
 <div>
-  <form>
-    <input
-      placeholder="Enter participant names"
-      type="text"
-      value=""
-    />
-    <button
-      disabled=""
+  <section>
+    <h2>
+      Vamos começar!
+    </h2>
+    <form>
+      <div
+        class="mb-8"
+      >
+        <input
+          class="block rounded-[45px] h-20 w-full box-border pl-8 text-xl border-2 border-solid border-black shadow-[0px_2px_0px_1px_#000] mb-5 focus:outline-none medium:inline medium:rounded-r-[0] medium:rounded-l-[45px] medium:w-[70%] medium:shadow-[0px_2px_0px_1px_#000] medium:m-0"
+          placeholder="Enter participant names"
+          type="text"
+          value=""
+        />
+        <button
+          class="block mt-4 mx-auto w-56 rounded-[45px] h-20 box-border border-2 border-solid border-black text-xl text-black shadow-[2px_2px_0px_1px_#000] cursor-pointer bg-[#c4c4c4] hover:opacity-[0.8] disabled:opacity-[0.6] disabled:cursor-not-allowed medium:inline medium:m-0 medium:w-[30%] medium:rounded-l-[0] medium:rounded-r-[45px]"
+          disabled=""
+        >
+          Adicionar
+        </button>
+      </div>
+      
+    </form>
+    <ul />
+    <footer
+      class=" w-full flex flex-col items-center justify-between medium:flex-row"
     >
-      Adicionar
-    </button>
-    
-  </form>
-  <ul />
-  <footer>
-    <button
-      disabled=""
-    >
-      Iniciar brincadeira
-    </button>
-  </footer>
+      <button
+        class="w-56 h-20 text-xl shadow-[2px_2px_0px_1px_#000] rounded-[45px] bg-[#fe652b] text-white cursor-pointer my-8 mx-0 disabled:opacity-[0.6] disabled:cursor-not-allowed hover:bg-[#4b69fd] medium:m-0 medium:w-[350px]"
+        disabled=""
+      >
+        <span>
+          Iniciar brincadeira
+        </span>
+      </button>
+      <img
+        alt="sacolas de compras"
+        src="imagens/sacolas.png"
+      />
+    </footer>
+  </section>
 </div>
 `;
