@@ -21,9 +21,13 @@ para iniciar a aplicação, rode o comando npm start.
 
 
 
-Um projeto para praticar os testes, foi feito um sorteador de amigo secreto onde o usuário pode adicionar nomes, fazer o sorteio e verificar quem é o amigo secreto. Um projeto bem simples que me ajudou a praticar o tailwind, aprender um pouco mais sobre os testes com Jest pelo curso da alura e praticar react com typescript.
-*No curso não foi utilizado tailwind, foi uma escolha minha pois queria aprender melhor essa tecnologia e o curso foi bem aberto na parte de estilização dos componentes.
+Um projeto para praticar os testes, foi feito um sorteador de amigo secreto onde o usuário pode adicionar nomes, fazer o sorteio e verificar quem é o amigo secreto. Um projeto bem simples que me ajudou a praticar o tailwind, aprender um pouco mais sobre os testes com Jest pelo curso da alura e praticar react com typescript.<br />
+No curso não foi utilizado tailwind, foi uma escolha minha pois queria aprender melhor essa tecnologia e o curso foi bem aberto na parte de estilização dos componentes.
 
 Design no figma: https://www.figma.com/file/c3RarCwq533GF1rrTRQEES/Sorteador-de-amigo-secreto?node-id=35%3A134
 
+#### Screenshot
+![Captura de tela de 2022-06-16 16-40-31](https://user-images.githubusercontent.com/80429145/174151734-95b0148a-bbfb-4815-b3de-161c469fde09.png)
+
+![Captura de tela de 2022-06-16 16-41-11](https://user-images.githubusercontent.com/80429145/174151755-54c77050-fad0-4c93-bdb9-62444e6ac808.png)
 
