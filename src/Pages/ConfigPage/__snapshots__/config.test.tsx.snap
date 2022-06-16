@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The page of configuration should be render correctly 1`] = `
+<div>
+  <form>
+    <input
+      placeholder="Enter participant names"
+      type="text"
+      value=""
+    />
+    <button
+      disabled=""
+    >
+      Adicionar
+    </button>
+    
+  </form>
+  <ul />
+  <footer>
+    <button
+      disabled=""
+    >
+      Iniciar brincadeira
+    </button>
+  </footer>
+</div>
+`;
