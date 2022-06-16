@@ -1,10 +1,13 @@
 import { useRef, useState } from 'react';
-import { useAddParticipant } from 'state/hooks/useAddParticipant';
+import { useAddNewParticipant } from 'state/hooks/useAddNewParticipant';
+import { useErrorMessage } from 'state/hooks/useErrorMessage';
 
 export const Form = () => {
   const [participantName, setParticipantName] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
-  const addNewParticipant = useAddParticipant();
+  const addNewParticipant = useAddNewParticipant();
+
+  const errorMessage = useErrorMessage();
 
   const addParticipant = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -23,6 +26,7 @@ export const Form = () => {
         onChange={(event) => setParticipantName(event.target.value)}
       />
       <button disabled={!participantName}>Adicionar</button>
+      {errorMessage && <p role="alert">{errorMessage}</p>}
     </form>
   );
 };
